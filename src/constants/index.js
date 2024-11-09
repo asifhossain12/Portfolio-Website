@@ -27,16 +27,16 @@ export const PROJECTS = [
     image: project1,
     description:
       "A deep learning-based model utilizing CNNs and image processing to aid in early diagnosis and treatment planning. Built with Python, TensorFlow, and Keras for high accuracy in tumor type identification.",
-    technologies: ["Tensorflow", "CNN", "OpenCV", "ReactJS", "Python", "Django", "AWS"],
-    githubLink: "https://github.com/asifhossain12"
+    technologies: ["Tensorflow", "CNN", "OpenCV", "ReactJS", "Python", "Django", "AWS"],    
   },
   {
     title: "Potato Disease Classification",    
     image: project2,
     description:
       "A comprehensive deep learning solution for classifying potato diseases through image recognition, employing convolutional neural networks (CNNs) for precise identification. Created with Python, TensorFlow, and Keras to facilitate timely diagnosis and enhance agricultural practices.",
-    technologies: ["Tensorflow", "CNN", "ReactJS", "Python", "FastAPI", "GCP"],
-    githubLink: "https://github.com/asifhossain12"
+    technologies: ["Tensorflow", "CNN", "ReactJS", "Python", "FastAPI", "AWS"],
+    githubLink: "https://github.com/asifhossain12/AgroFarm",
+    webpageLink: "https://agrofarm-bkwd.onrender.com/"
   },
   {
     title: "Earthquake Prediction",  
@@ -45,16 +45,8 @@ export const PROJECTS = [
     description:
       "An advanced machine learning model for earthquake prediction, utilizing time-series data and a Random Forest Regressor to forecast seismic activity. Developed with Python and Scikit-Learn, this model aims to provide early warnings, helping to mitigate disaster impacts and enhance safety measures.",
     technologies: ["Scikit-learn", "Pandas", "Django", "Machine Learning"],
-    githubLink: "https://github.com/asifhossain12"
-  },
-  {
-    title: "Skin Cancer Prediction",   
-    image: project4, 
-    description:
-      " A deep learning model for skin cancer prediction that leverages convolutional neural networks (CNNs) to analyze and classify skin lesions. Developed using Python, TensorFlow, and Keras, this model aids in early detection and diagnosis, improving patient outcomes in dermatology.",
-    technologies: ["Tensorflow", "CNN", "ReactJS", "Python", "Django"],
-    githubLink: "https://github.com/asifhossain12"
-  },
+    githubLink: "https://github.com/asifhossain12/Earthquake-Prediction-Project/"
+  },  
 ];
 
 export const CONTACT = {
