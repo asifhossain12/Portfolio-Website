@@ -35,9 +35,11 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className='w-full max-w-xl lg:w-3/4'>
               <h3 className='mb-2 flex items-center font-semibold text-[24px] text-stone-800'>
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className='flex items-center'>
-
-                  {project.title}
+              <a href={project.webpageLink} target="_blank" rel="noopener noreferrer" className='flex items-center hover:text-purple-800'>                  
+                  {project.title} 
+              </a>
+              
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className='flex items-center'>                  
                    <FaGithub className='ml-6 text-stone-600 size-[18px]' /> 
                 </a>
               </h3>
