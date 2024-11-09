@@ -1,14 +1,9 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiDjango } from "react-icons/si";
-import { SiScikitlearn } from "react-icons/si";
-import { SiTensorflow } from "react-icons/si";
-import { SiNumpy } from "react-icons/si";
+import { SiScikitlearn, SiFastapi, SiDjango, SiTensorflow, SiNumpy, SiPandas, SiOpencv, SiPostgresql} from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
-import { SiPandas } from "react-icons/si";
-import { SiOpencv, SiPostgresql } from "react-icons/si";
 
 import { animate, motion } from 'framer-motion';
 
@@ -47,7 +42,7 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 variants={iconVariants(2.5)}>
-                <RiReactjsLine className='text-7xl text-cyan-400'/>
+                <RiReactjsLine className='text-6xl text-cyan-400'/>
             </motion.div>
 
             <motion.div
@@ -55,28 +50,35 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(2.5)}
                 className='p-4'>
-                <FaPython className='text-7xl text-sky-700'/>
+                <FaPython className='text-6xl text-sky-700'/>
             </motion.div>
 
             <motion.div
                 initial="initial"
                 animate="animate"
                 variants={iconVariants(3)} className='p-4'>
-                <IoLogoJavascript className='text-7xl text-yellow-500'/>
+                <IoLogoJavascript className='text-6xl text-yellow-500'/>
             </motion.div>
 
             <motion.div
             initial="initial"
                 animate="animate"
                 variants={iconVariants(5)} className='p-4'>
-                <SiDjango className='text-7xl text-green-800'/>
+                <SiDjango className='text-6xl text-green-800'/>
+            </motion.div>
+
+            <motion.div
+            initial="initial"
+                animate="animate"
+                variants={iconVariants(5)} className='p-4'>
+                <SiFastapi className='text-6xl text-teal-500'/>
             </motion.div>
 
             <motion.div
             initial="initial"
                 animate="animate"
                 variants={iconVariants(2.5)} className='p-4'>
-                <SiScikitlearn className='text-7xl text-blue-500'/>
+                <SiScikitlearn className='text-6xl text-blue-500'/>
             </motion.div>
 
             <motion.div
@@ -84,7 +86,7 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(3)}
                  className='p-4'>
-                <SiTensorflow className='text-7xl text-orange-400'/>
+                <SiTensorflow className='text-6xl text-orange-400'/>
             </motion.div>
 
             <motion.div
@@ -92,7 +94,7 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(6)}
                  className='p-4'>
-                <FaAws className='text-7xl text-black'/>
+                <FaAws className='text-6xl text-black'/>
             </motion.div>
 
             <motion.div
@@ -100,7 +102,15 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(2.5)}
                  className='p-4'>
-                <SiNumpy className='text-7xl text-black'/>
+                <SiNumpy className='text-6xl text-black'/>
+            </motion.div>
+
+            <motion.div
+                initial="initial"
+                animate="animate"
+                variants={iconVariants(2.5)}
+                className='p-4'>
+                <FaDocker className='text-6xl text-sky-400'/>
             </motion.div>
 
             <motion.div
@@ -108,7 +118,7 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(2)}
                  className='p-4'>
-                <SiPandas className='text-7xl text-blue-400'/>
+                <SiPandas className='text-6xl text-blue-400'/>
             </motion.div>
 
             <motion.div
@@ -116,7 +126,7 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(3)}
                  className='p-4'>
-                <SiOpencv className='text-7xl text-red-500' />
+                <SiOpencv className='text-6xl text-red-500' />
             </motion.div>
 
             <motion.div
@@ -124,7 +134,7 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(5)}
                  className='p-4'>
-                <SiPostgresql className='text-7xl text-sky-500' />
+                <SiPostgresql className='text-6xl text-sky-500' />
             </motion.div>
 
         </motion.div>
