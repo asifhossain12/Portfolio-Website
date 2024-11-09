@@ -12,7 +12,6 @@ Check out the live version here 👉 [Live Demo](https://portfolio-website-umber
  #### 💻 Modern UI: Clean, minimal, and stylish layout using Tailwind CSS.
  #### 🖱️ Smooth Navigation: Scrolls seamlessly between sections.
  #### 🛠️ Project Showcase: Displays projects with links to GitHub and live demos.
- #### 📬 Contact Form: Built-in form to get in touch directly.
 
 ## 🖼️ Screenshots
 
