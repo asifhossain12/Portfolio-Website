@@ -46,7 +46,7 @@ const Hero = () => {
                     <motion.h2
                         variants={childVariants}
                         
-                     className='pb-2 text-xl tracking-tighter lg:text-6xl text-stone-900'>Shaikh Asif Hossain</motion.h2>  
+                     className='pb-2 text-3xl tracking-tighter lg:text-6xl text-stone-900'>Shaikh Asif Hossain</motion.h2>  
                     <br></br>
                     <motion.span
                         variants={childVariants}
