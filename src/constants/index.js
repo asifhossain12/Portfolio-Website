@@ -41,6 +41,7 @@ export const PROJECTS = [
     description:
       "This project implements a Residual U-Net model integrated with wavelet denoising for automated brain tumor segmentation from multimodal MRI scans. It enhances image quality, focuses on tumor-centric slices, and achieves high segmentation accuracy and Dice scores on the BraTS2020 dataset.",
     technologies: ["Tensorflow", "Residual U-Net", "OpenCV", "Pytorch", "Python", "U-Net"],    
+    githubLink: "https://github.com/asifhossain12/OncoScan-AI"
   },
   {
     title: "Potato Disease Classification",    
