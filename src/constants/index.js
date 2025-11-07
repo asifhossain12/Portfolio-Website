@@ -65,7 +65,7 @@ export const PROJECTS = [
 export const PUBLICATIONS = [
   {
     title: "Residual U-Net Framework Enhanced with Wavelet Denoising for Brain Tumor Segmentation",
-    authors: "Surojit Bose1, Shaikh Asif Hossain1, and Debam Saha",
+    authors: "Surojit Bose, Shaikh Asif Hossain, and Debam Saha",
     conference: "6th International Conference on Frontiers in Computing and Systems",
     description: "This paper presents a Residual U-Net framework enhanced with wavelet denoising for accurate brain tumor segmentation using multimodal MRI (FLAIR and T1CE) from the BraTS2020 dataset. The proposed model achieves high Dice scores and 99.58% accuracy, demonstrating robust tumor delineation under limited computational resources."
   }
