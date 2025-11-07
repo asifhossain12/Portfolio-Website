@@ -33,6 +33,7 @@ const Educations = () => {
                 <h3 className='mb-2 font-semibold text-xl text-stone-800'>
                   {education.institution} <br></br>
                   <span className='text-[16px] text-stone-500'>{education.degree}></span>
+                  <br></br>
                   <span className='text-[16px] text-stone-500'>
                     {education.department}
                   </span>
