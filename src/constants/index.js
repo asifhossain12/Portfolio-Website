@@ -3,7 +3,11 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate Machine Learning Engineer with a strong focus on deep learning and computer vision, dedicated to developing impactful, real-world applications. Skilled in technologies such as Python, TensorFlow, Keras, Scikit-Learn, CNNs, image processing, data analysis, and SQL, I bring expertise across the entire ML lifecycle. I also build robust backend applications for model deployment using frameworks like FastAPI and Django. With a little proficiency in cloud platforms like AWS and GCP, I streamline model deployment and scalability. My primary interest lies in applying AI to medical domains, creating solutions that advance healthcare and diagnostics.`;
+export const HERO_CONTENT = `Hi, I’m Asif, a masters student at the University of Pisa majoring in Computer Science specialising in Artificial Intelligence. I am a curious and passionate tech enthusiast who loves exploring how technology and artificial intelligence can make everyday life simpler and smarter.
+
+I like working on projects and research that challenge me to learn something new whether it’s improving existing systems, finding faster and more efficient solutions, or exploring how AI can be used in areas like healthcare and medical imaging to improve lives. I work mainly with tools like Python, TensorFlow, and Pytorch, and I’m always eager to experiment with new technologies.
+
+Outside of academics, I’m a swimmer who enjoys staying active and spending time outdoors.`;
 
 export const Education = [
   {
