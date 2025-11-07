@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
+import Publications from "./components/Publications";
 import Educations from "./components/Educations";
 import Contact from "./components/Contact";
 
@@ -21,6 +22,7 @@ export default function App() {
         <br />
         <br />
         <br />
+        <Publications/>
         <Projects />  
         <Educations />   
         <Contact /> 
