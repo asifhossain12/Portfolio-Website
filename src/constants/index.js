@@ -7,8 +7,14 @@ export const HERO_CONTENT = `I am a passionate Machine Learning Engineer with a 
 
 export const Education = [
   {
-    year: "2021 - Present",
-    institution: "Calcutta Institute of Engineering and Management, Kolkata",    
+    year: "2025 - Present",
+    institution: "University of Pisa",    
+    department: "Computer Science",
+    relevant_courses: "Machine Learning, Artificial Intelligence, Deep Learning and Generative AI, Computer Vision"
+  },
+  {
+    year: "2021 - 2025",
+    institution: "Maulana Abul Kalam Azad University of Technology, Kolkata, West Bengal, India",    
     department: "Computer Science and Engineering",
     relevant_courses: "Machine Learning, Artificial Intelligence, Image Processing, Functional Programming, Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Computer Networks, Cybersecurity",
     
@@ -50,6 +56,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Kolkata, India",  
+  address: "Pisa, Tuscany, Italy",  
   email: "hossainshaikhasif@gmail.com",
 };
