@@ -8,7 +8,7 @@ export const HERO_CONTENT = `I am a passionate Machine Learning Engineer with a 
 export const Education = [
   {
     year: "2025 - Present",
-    institution: "University of Pisa - Artificial Intelligence",
+    institution: "University of Pisa",
     degree: "Masters Degree",
     department: "Computer Science - Artificial Intelligence",
     relevant_courses: "Machine Learning, Artificial Intelligence, Deep Learning and Generative AI, Computer Vision"
