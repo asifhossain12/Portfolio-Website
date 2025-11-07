@@ -10,7 +10,7 @@ export const Education = [
     year: "2025 - Present",
     institution: "University of Pisa - Artificial Intelligence",
     degree: "Masters Degree",
-    department: "Computer Science",
+    department: "Computer Science - Artificial Intelligence",
     relevant_courses: "Machine Learning, Artificial Intelligence, Deep Learning and Generative AI, Computer Vision"
   },
   {
