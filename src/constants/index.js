@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `Hi, I’m Asif, a masters student at the University of Pisa majoring in Computer Science specialising in Artificial Intelligence. I am a curious and passionate tech enthusiast who loves exploring how technology and artificial intelligence can make everyday life simpler and smarter.
+export const HERO_CONTENT = `Hi, I’m Asif, a masters student at the University of Pisa majoring in Computer Science with a specialization in Artificial Intelligence. I am a curious and passionate tech enthusiast who loves exploring how technology and artificial intelligence can make everyday life simpler and smarter.
 
 I like working on projects and research that challenge me to learn something new whether it’s improving existing systems, finding faster and more efficient solutions, or exploring how AI can be used in areas like healthcare and medical imaging to improve lives. I work mainly with tools like Python, TensorFlow, and Pytorch, and I’m always eager to experiment with new technologies.
 
