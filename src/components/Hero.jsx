@@ -50,7 +50,7 @@ const Hero = () => {
                     <br></br>
                     <motion.span
                         variants={childVariants}
-                     className='bg-gradient-to-r from-stone-600 to-stone-900 bg-clip-text text-3xl tracking-tight text-transparent'>
+                     className='bg-gradient-to-r from-stone-600 to-stone-900 bg-clip-text text-2xl tracking-tight text-transparent'>
                     Machine Learning | Deep Learning | Computer Vision 
                     </motion.span>
 
