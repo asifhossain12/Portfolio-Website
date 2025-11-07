@@ -32,7 +32,7 @@ const Educations = () => {
                className='w-full max-w-xl lg:w-3/4'>
                 <h3 className='mb-2 font-semibold text-xl text-stone-800'>
                   {education.institution} <br></br>
-                  <span className='text-[16px] text-stone-500'>{education.degree}></span>
+                  <span className='text-[16px] text-stone-500'>{education.degree}</span>
                   <br></br>
                   <span className='text-[16px] text-stone-500'>
                     {education.department}
