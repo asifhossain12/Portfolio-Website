@@ -8,20 +8,23 @@ export const HERO_CONTENT = `I am a passionate Machine Learning Engineer with a 
 export const Education = [
   {
     year: "2025 - Present",
-    institution: "University of Pisa",    
+    institution: "University of Pisa - Artificial Intelligence",
+    degree: "Masters Degree",
     department: "Computer Science",
     relevant_courses: "Machine Learning, Artificial Intelligence, Deep Learning and Generative AI, Computer Vision"
   },
   {
     year: "2021 - 2025",
-    institution: "Maulana Abul Kalam Azad University of Technology, Kolkata, West Bengal, India",    
+    institution: "Maulana Abul Kalam Azad University of Technology, Kolkata, West Bengal, India",
+    degree: "Bachelors Degree",
     department: "Computer Science and Engineering",
     relevant_courses: "Machine Learning, Artificial Intelligence, Image Processing, Functional Programming, Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Computer Networks, Cybersecurity",
     
   },
   {
     year: "2021",
-    institution: "Don Bosco School Park Circus, Kolkata",        
+    institution: "Don Bosco School Park Circus, Kolkata",   
+    degree: "Higher Secondary School",
     department: "Science",
     relevant_courses: "Physics, Chemistry, Mathematics, English, Computer Science"    
   },  
@@ -29,11 +32,11 @@ export const Education = [
 
 export const PROJECTS = [
   {
-    title: "Brain Tumour Classification and Detection",
+    title: "Residual U-Net Framework Enhanced with Wavelet Denoising for Brain Tumor Segmentation",
     image: project1,
     description:
-      "A deep learning-based model utilizing CNNs and image processing to aid in early diagnosis and treatment planning. Built with Python, TensorFlow, and Keras for high accuracy in tumor type identification.",
-    technologies: ["Tensorflow", "CNN", "OpenCV", "ReactJS", "Python", "Django", "AWS"],    
+      "This project implements a Residual U-Net model integrated with wavelet denoising for automated brain tumor segmentation from multimodal MRI scans. It enhances image quality, focuses on tumor-centric slices, and achieves high segmentation accuracy and Dice scores on the BraTS2020 dataset.",
+    technologies: ["Tensorflow", "Residual U-Net", "OpenCV", "Pytorch", "Python", "U-Net"],    
   },
   {
     title: "Potato Disease Classification",    
@@ -54,6 +57,15 @@ export const PROJECTS = [
     githubLink: "https://github.com/asifhossain12/Earthquake-Prediction-Project/"
   },  
 ];
+
+export const PUBLICATIONS = [
+  {
+    title: "Residual U-Net Framework Enhanced with Wavelet Denoising for Brain Tumor Segmentation",
+    authors: "Surojit Bose1, Shaikh Asif Hossain1, and Debam Saha",
+    conference: "6th International Conference on Frontiers in Computing and Systems",
+    description: "This paper presents a Residual U-Net framework enhanced with wavelet denoising for accurate brain tumor segmentation using multimodal MRI (FLAIR and T1CE) from the BraTS2020 dataset. The proposed model achieves high Dice scores and 99.58% accuracy, demonstrating robust tumor delineation under limited computational resources."
+  }
+]
 
 export const CONTACT = {
   address: "Pisa, Tuscany, Italy",  
